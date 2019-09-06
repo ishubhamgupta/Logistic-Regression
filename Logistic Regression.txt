@@ -1,0 +1,34 @@
+** Logistic regression **
+
+- Some examples of classification problems:
+	~ Spam vs 'Ham' emails
+	~ Loan Default (yes / no)
+	~ Disease Diagnosis
+All these examples are binary classification
+
+
+- Logistic regression allows ud to solve classification problems, where we are trying to predict discrete categories
+- The convention for binary classification is to have two classes of 0 and 1
+- We can't use a normal linear regression model on binary groups. it won't lead to a good fir
+
+~~ SIGMOID FUNCTION ~~
+
+- The sigmoid (aka logistic) function takes in any value and outputs it to be between 0 and 1
+- This means that we can take our linear regression solution and place it into the sigmoid function
+- This result in a probability from 0 to 1 of belonging in the 1 class
+- We can set a cut off point at 0.5 anything below it results in class 0, anything above is class 1
+
+
+~~ Model Evaluation ~~
+
+- After you train a logistic regression model on some training data, we will evealuate our model's performance on some test data
+- We can use a confusion matrix to evaluate classification models
+
+
+~~ Confusion Matrix ~~
+ > True positive (TP)
+ > True negative (TN)
+ > False positive (FP)
+ > False negative (FP)
+
+

@@ -1,0 +1,11 @@
+** Bias-Variance Trade-off **
+
+- The bias varaince trade-off is the point where we are adding just noise by adding model complexity(flexibility)
+- The training error goess down as it has to, but the test error is starting to go up
+- The model after the bias trae-off begins to overfit
+
+
+- A common temptstion for beginners is to continually add complexity to a model until it fits the training set very well
+- Doing this can cause a model to overfit to your raining data and cause large errors on new data such as the test set
+
+
